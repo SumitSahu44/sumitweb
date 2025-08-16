@@ -1,4 +1,4 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaYoutube, FaFacebook  } from "react-icons/fa";
 import {
   RxDiscordLogo,
   RxGithubLogo,
@@ -6,6 +6,7 @@ import {
   RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
+import { FaLinkedin } from "react-icons/fa";
 
 export const SKILL_DATA = [
   {
@@ -92,17 +93,12 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/sumit_sahu_444/", // apna insta link daalna
   },
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    name: "LinkedIn",
+    icon: FaLinkedin, // ye import karna hoga
+    link: "https://www.linkedin.com/in/sumit-sahu-14s012005/", // apna linkedin profile link daalna
   },
 ] as const;
 
@@ -284,66 +280,24 @@ export const PROJECTS = [
 ] as const;
 
 export const FOOTER_DATA = [
-  {
-    title: "Community",
-    data: [
-      {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
-        name: "GitHub",
-        icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
-      },
-    ],
-  },
+
   {
     title: "Social Media",
     data: [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        link: "https://www.instagram.com/sumit_sahu_444/",
       },
-      {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://twitter.com",
-      },
+     
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://www.linkedin.com/in/sumit-sahu-14s012005/",
       },
     ],
   },
-  {
-    title: "About",
-    data: [
-      {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
-      {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
-      },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:contact@example.com",
-      },
-    ],
-  },
+  
 ] as const;
 
 export const NAV_LINKS = [
@@ -359,6 +313,7 @@ export const NAV_LINKS = [
     title: "Projects",
     link: "#projects",
   },
+
 ] as const;
 
 export const LINKS = {

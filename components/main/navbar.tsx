@@ -41,15 +41,16 @@ export const Navbar = () => {
               </Link>
             ))}
 
-            {/* Source Code */}
+          {/* Resume Link */}
             <Link
-              href={LINKS.sourceCode}
+              href="/sumit resume.pdf" 
               target="_blank"
-              rel="noreferrer noopener"
+              rel="noopener noreferrer"
               className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
             >
-              Source Code
+              Resume
             </Link>
+
           </div>
         </div>
 
@@ -91,14 +92,14 @@ export const Navbar = () => {
                 {link.title}
               </Link>
             ))}
+            {/* Resume Link */}
             <Link
-              href={LINKS.sourceCode}
+              href="/sumit resume.pdf" 
               target="_blank"
-              rel="noreferrer noopener"
-              className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
-              onClick={() => setIsMobileMenuOpen(false)}
+              rel="noopener noreferrer"
+              className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
             >
-              Source Code
+              Resume
             </Link>
           </div>
 
