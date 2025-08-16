@@ -273,19 +273,13 @@ export const PROJECTS = [
     link: "https://vanyariverresort.com/",
   },
   {
-    title: "Space Themed Website",
+    title: "Loan Provider (Client Project)",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
+      'Developed a professional loan provider website for KV Association, an organization providing loans above ₹50 Lakhs. Key features included an AI-powered chatbot for instant query resolution, multi-language support for wider accessibility, and a clean, responsive interface.',
+    image: "/projects/project3.png",
+    link: "https://kvassociateindia.com/",
   },
-    {
-    title: "Space Themed Website",
-    description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
-  },
+  
   
 ] as const;
 
